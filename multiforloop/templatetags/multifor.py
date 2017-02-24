@@ -10,7 +10,7 @@ for x, y in xy_list reversed
 for x in x_list reversed; y in y_list
 for x in x_list; y in y_list reversed
 """
-from django.template import Node, NodeList, Template, Context, Variable, Library
+from django.template import Node, NodeList, Library
 from django.template import TemplateSyntaxError, VariableDoesNotExist
 
 register = Library()
